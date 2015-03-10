@@ -2,7 +2,7 @@
 
 This is a set of Finite-State Transducers (FSTs) for normalization of Russian texts for speech synthesis, machine translation and other natural language processing tasks.
 
-The FSTs are developed in [Unitex](http://www-igm.univ-mlv.fr/~unitex/), a corpus processor.
+The FSTs are developed using [Unitex](http://www-igm.univ-mlv.fr/~unitex/), a corpus processor.
 
 To normalize a Russian text:
 
@@ -13,7 +13,7 @@ To normalize a Russian text:
   * [the full version of the Russian computational morphological dictionary developed at CIS, Munich](http://www-igm.univ-mlv.fr/~unitex/index.php?page=5&html=bibliography.html#russian): `CISLEXru.bin`, `CISLEXru_disamb-.bin` and `CISLEXru_EN.bin`
   * `Dela/univer.bin`
   * `Dela/univer_disamb-.bin`
-3. Create a cascade (`Text\Apply CasSys Cascade...` menu, `New`) to sequentially apply the following FSTs to your text in REPLACE mode (menu `Text/Locate pattern`):
+3. Create a cascade (`Text\Apply CasSys Cascade...` menu, `New`) to sequentially apply the following FSTs to your text in REPLACE mode:
   * `Graphs/numbers.fst2`
   * `Graphs/abbr/abbr_w.fst2`
   * `Graphs/abbr/acronyms_w.fst2`
