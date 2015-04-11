@@ -20,3 +20,5 @@ To normalize a Russian text:
   * `Graphs/Postprocessing/replace.fst2`
 4. Launch the cascade of FSTs.
 5. The normalized text is in `Corpus/example_csc/example_4_0.snt`.
+
+[Slides](http://artyom.ice-lc.com/slides/normatex/)
